@@ -56,7 +56,7 @@ class AndroidDeviceInfo extends BaseDeviceInfo {
 
   /// The name of the industrial design.
   /// https://developer.android.com/reference/android/os/Build#DEVICE
-  final String device;
+  final String? device;
 
   /// A build ID string meant for displaying to the user.
   /// https://developer.android.com/reference/android/os/Build#DISPLAY
